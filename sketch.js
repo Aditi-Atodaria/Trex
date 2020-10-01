@@ -44,7 +44,7 @@ function setup() {
   
   ground = createSprite(200,180,400,20);
   ground.addImage("ground",groundImage);
-  ground.scale = 0.6
+  
   ground.x = ground.width /2;
   ground.velocityX = -(6 + 3*score/100);
   
